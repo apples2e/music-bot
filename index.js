@@ -46,4 +46,4 @@ client.on('messageCreate',message=>{
     }
 })
 
-client.login("OTQ3MDg0NjczMzEyNTIyMjUx.YhoHVg.fDR3XwssuIGeqOoSdvr-kjqsCk0")
+client.login("OTQ3MDg0NjczMzEyNTIyMjUx.YhoHVg.qjXfBHPy5NYcXl79ts9IePnaKlk")
