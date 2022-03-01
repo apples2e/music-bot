@@ -16,6 +16,7 @@ from discord import FFmpegPCMAudio
 import bs4
 import asyncio
 import time
+import os
 
 bot = commands.Bot(command_prefix=';;')
 clint = discord.Client()
@@ -320,4 +321,5 @@ async def 목록재생(ctx):
         else:
             await ctx.send("다른 노래가 재생되고 있군요! 멈추고 다시 시도하세요.")
 
-bot.run('OTQ3MDg0NjczMzEyNTIyMjUx.YhoHVg.i91ZiEeWPspGhrfL_WsBsMFZnX8')
+access_token = os.environ["BOT_TOKEN]         
+bot.run(access_token)
